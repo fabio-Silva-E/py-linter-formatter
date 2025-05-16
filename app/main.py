@@ -35,5 +35,4 @@ def format_linter_report(linter_report: dict) -> list:
         ],
         "path": file_path,
         "status": "failed"
-    } for file_path, errors in linter_report.items()
-            ]
+    } for file_path, errors in linter_report.items()]
